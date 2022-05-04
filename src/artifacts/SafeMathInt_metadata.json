@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bep-20.sol": "SafeMathInt"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bep-20.sol": {
+			"keccak256": "0xdf0430b902c137e8d71708440bbb8b25b3bfb6fa86a9cf7f9e26d343f1d69e62",
+			"urls": [
+				"bzz-raw://9dddb7ad2477df2d952c65a0272a3021fa885baf894bfff4842315946d39cea3",
+				"dweb:/ipfs/Qmf7JaWNAd8yYH6FYwgnMwC2JDj5YF1cxs2HKcfUr5nm48"
+			]
+		}
+	},
+	"version": 1
+}

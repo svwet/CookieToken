@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "version_",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "generator",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "BEP20 Generator (https://vittominacori.github.io/bep20-generator)",
+			"details": "Implementation of the GeneratorCopyright",
+			"kind": "dev",
+			"methods": {
+				"generator()": {
+					"details": "Returns the token generator tool."
+				},
+				"version()": {
+					"details": "Returns the token generator version."
+				}
+			},
+			"title": "GeneratorCopyright",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lost-20.sol": "GeneratorCopyright"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lost-20.sol": {
+			"keccak256": "0xe77f6b862369892aab6de034baf592038a31cdcf7cf8d9f21f7e09bc9fecabf5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eec4f9dd1992117f5aa3b1d95fb7b3e0cb08bcb7fa0e7fa4e4b49c8d5bb83357",
+				"dweb:/ipfs/QmPN77EaxPHCuE4jmkHMYD7judWMLtZeRRA5xWeD5bgiDu"
+			]
+		}
+	},
+	"version": 1
+}
